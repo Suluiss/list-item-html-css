@@ -17,9 +17,8 @@ body {
 
 .box {
 	width: 300px;
-	padding-top: 500px;
 	position: absolute;
-	top: 50%;
+	top: 500%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
@@ -30,7 +29,6 @@ body {
 
 .box-header {
 	padding: 10px 50px;
-	padding-top: 500px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
