@@ -17,7 +17,7 @@ body {
 
 .box {
 	width: 300px;
-	position: sticky;
+	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -37,7 +37,7 @@ body {
 }
 
 .list {
-	position: sticky;
+	position: relative;
 	padding: unset;
 	margin: 0;
 	width: 100%;	
@@ -47,7 +47,7 @@ body {
 	list-style: none;
 	padding: 15px 40px;
 	box-shadow: 0 5px 25px rgba(0,0,0,.1);
-	position: sticky;
+	position: relative;
 	background: var(--item-bg-color);
 	cursor: pointer;
 	transition: all 0.3s;
